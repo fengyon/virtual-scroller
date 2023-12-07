@@ -1,6 +1,8 @@
-const isDev = process.env.NODE_ENV === 'development'
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const prettierConfig = require('./.prettier.config.cjs')
+const prettierConfig = require('./.prettier.config.js')
+
+const isDev = process.env.NODE_ENV === 'development'
+
 module.exports = {
   root: true,
 

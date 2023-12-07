@@ -1,0 +1,28 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "vscode.typescript-language-features",
+  "workbench.editor.limit.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "eslint.migration.2_x": "off",
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "vue", "html", "typescript"],
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.packageManager": "yarn",
+  "eslint.alwaysShowStatus": true
+}
